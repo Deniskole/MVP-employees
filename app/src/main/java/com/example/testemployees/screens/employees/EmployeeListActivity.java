@@ -38,7 +38,7 @@ public class EmployeeListActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 //        getSupportActionBar().hide();
-        
+
 
         recyclerViewEmployees = findViewById(R.id.recyclerViewEmployees);
         adapter = new EmployeeAdapter();
